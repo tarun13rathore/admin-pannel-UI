@@ -6,6 +6,7 @@ import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Login from "./components/login/Login";
+import "./app.scss";
 
 function App() {
   const Layout = () => {

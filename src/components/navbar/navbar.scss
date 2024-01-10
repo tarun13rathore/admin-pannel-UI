@@ -1,0 +1,37 @@
+@import "../../variable.scss";
+.main_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .icons {
+    display: flex;
+    justify-content: start;
+    padding: 10px 10px;
+    gap: 20px;
+    .notification {
+      display: flex;
+
+      .count {
+        position: absolute;
+        background: red;
+        width: 15px;
+        border-radius: 50px;
+        text-align: center;
+        margin: -8px 0 0 14px;
+        font-size: 12px;
+      }
+    }
+    .uses {
+      display: flex;
+      gap: 15px;
+    }
+    .setting {
+    }
+  }
+}

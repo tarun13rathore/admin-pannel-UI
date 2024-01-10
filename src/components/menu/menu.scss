@@ -1,0 +1,21 @@
+.menu {
+  .item {
+    padding-bottom: 10px;
+    .tittle {
+      display: block;
+    }
+    .linkCont {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 5px 10px;
+
+      &:hover {
+        border-radius: 5px;
+        background-color: rgba(159, 169, 179, 0.192);
+      }
+      .listItemTittle {
+      }
+    }
+  }
+}

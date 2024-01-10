@@ -1,0 +1,33 @@
+.main_topBox {
+  .headd {
+    margin-bottom: 10px;
+  }
+  .cards {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+
+    &:hover {
+      background: #f0bdbd3b;
+      border-radius: 10px;
+    }
+    .inside_card {
+      display: flex;
+      gap: 15px;
+      .profileImg {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+      }
+      .name {
+        font-size: 13px;
+      }
+      .email {
+        font-size: 12px;
+      }
+    }
+    .amout {
+      font-size: 13px;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     id: 1,
     tittle: "Menu",
@@ -109,4 +109,54 @@ const data = [
   },
 ];
 
-export default data;
+export const topData = [
+  {
+    id: 1,
+    img: "https://yt3.ggpht.com/yti/AGOGRCoFsGid_P596N8QZMUPVUy7yfClkNOPLq6SNxupPg=s88-c-k-c0x00ffffff-no-rj-mo",
+    username: "tarun rathore",
+    email: "tarun@gmail.com",
+    amount: 785475,
+  },
+  {
+    id: 2,
+    img: "https://yt3.ggpht.com/yti/AGOGRCoFsGid_P596N8QZMUPVUy7yfClkNOPLq6SNxupPg=s88-c-k-c0x00ffffff-no-rj-mo",
+    username: "neeraj rathore",
+    email: "tarun@gmail.com",
+    amount: 785475,
+  },
+  {
+    id: 3,
+    img: "https://yt3.ggpht.com/yti/AGOGRCoFsGid_P596N8QZMUPVUy7yfClkNOPLq6SNxupPg=s88-c-k-c0x00ffffff-no-rj-mo",
+    username: "shubham rathore",
+    email: "tarun@gmail.com",
+    amount: 785475,
+  },
+  {
+    id: 4,
+    img: "https://yt3.ggpht.com/yti/AGOGRCoFsGid_P596N8QZMUPVUy7yfClkNOPLq6SNxupPg=s88-c-k-c0x00ffffff-no-rj-mo",
+    username: "samir rathore",
+    email: "tarun@gmail.com",
+    amount: 785475,
+  },
+  {
+    id: 5,
+    img: "https://yt3.ggpht.com/yti/AGOGRCoFsGid_P596N8QZMUPVUy7yfClkNOPLq6SNxupPg=s88-c-k-c0x00ffffff-no-rj-mo",
+    username: "sachin rathore",
+    email: "tarun@gmail.com",
+    amount: 785475,
+  },
+  {
+    id: 6,
+    img: "https://yt3.ggpht.com/yti/AGOGRCoFsGid_P596N8QZMUPVUy7yfClkNOPLq6SNxupPg=s88-c-k-c0x00ffffff-no-rj-mo",
+    username: "vinay rathore",
+    email: "tarun@gmail.com",
+    amount: 785475,
+  },
+  {
+    id: 7,
+    img: "https://yt3.ggpht.com/yti/AGOGRCoFsGid_P596N8QZMUPVUy7yfClkNOPLq6SNxupPg=s88-c-k-c0x00ffffff-no-rj-mo",
+    username: "vinay rathore",
+    email: "tarun@gmail.com",
+    amount: 785475,
+  },
+];

@@ -1,0 +1,42 @@
+@import "../../variable.scss";
+.main_chat {
+  display: flex;
+
+  height: 100%;
+  .info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .title {
+      display: flex;
+      justify-content: start;
+      gap: 10px;
+      align-items: center;
+    }
+    .head {
+      // padding: 34px 0;
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+  .chart {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .chat {
+      height: 100%;
+      width: 100%;
+    }
+    .texts {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      .perc {
+        color: greenyellow;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -160,3 +160,233 @@ export const topData = [
     amount: 785475,
   },
 ];
+
+export const ChartDatas = {
+  color: "green",
+  icon: "./logo.svg",
+  title: "Total Users",
+  number: 2514,
+  dataKey: "users",
+  percentage: "45%",
+  duration: "3 Months",
+  chartData: [
+    {
+      name: "Page A",
+      users: 2400,
+    },
+    {
+      name: "Page B",
+      users: 2210,
+    },
+    {
+      name: "Page C",
+      users: 2290,
+    },
+    {
+      name: "Page D",
+      users: 2000,
+    },
+    {
+      name: "Page E",
+      users: 2181,
+    },
+    {
+      name: "Page F",
+      users: 2500,
+    },
+    {
+      name: "Page G",
+      users: 2100,
+    },
+  ],
+};
+
+export const ChartDatas2 = {
+  color: "green",
+  icon: "./logo.svg",
+  title: "Total Revenu",
+  number: 4500,
+  dataKey: "users",
+  percentage: "-5%",
+  duration: "2 Months",
+  chartData: [
+    {
+      name: "Page A",
+      users: 6000,
+    },
+    {
+      name: "Page B",
+      users: 2210,
+    },
+    {
+      name: "Page C",
+      users: 9000,
+    },
+    {
+      name: "Page D",
+      users: 2000,
+    },
+    {
+      name: "Page E",
+      users: 2181,
+    },
+    {
+      name: "Page F",
+      users: 2500,
+    },
+    {
+      name: "Page G",
+      users: 2100,
+    },
+  ],
+};
+export const products = {
+  color: "green",
+  icon: "./logo.svg",
+  title: "Total Revenu",
+  number: 3300,
+  dataKey: "users",
+  percentage: "58%",
+  duration: "2 Months",
+  chartData: [
+    {
+      name: "Page A",
+      users: 9879,
+    },
+    {
+      name: "Page B",
+      users: 2210,
+    },
+    {
+      name: "Page C",
+      users: 2290,
+    },
+    {
+      name: "Page D",
+      users: 54666,
+    },
+    {
+      name: "Page E",
+      users: 2181,
+    },
+    {
+      name: "Page F",
+      users: 2500,
+    },
+    {
+      name: "Page G",
+      users: 2100,
+    },
+  ],
+};
+
+export const ratio = {
+  color: "yellow",
+  icon: "./logo.svg",
+  title: "Total Ratio",
+  number: 3300,
+  dataKey: "users",
+  percentage: "55%",
+  duration: "2 Months",
+  chartData: [
+    {
+      name: "Page A",
+      users: 9879,
+    },
+    {
+      name: "Page B",
+      users: 2210,
+    },
+    {
+      name: "Page C",
+      users: 2290,
+    },
+    {
+      name: "Page D",
+      users: 54666,
+    },
+    {
+      name: "Page E",
+      users: 2181,
+    },
+    {
+      name: "Page F",
+      users: 2500,
+    },
+    {
+      name: "Page G",
+      users: 2100,
+    },
+  ],
+};
+
+export const barData = {
+  title: "Total Visit",
+  dataKey: "visit",
+  color: "orange",
+  chartData: [
+    {
+      name: "Page A",
+      visit: 200,
+    },
+    {
+      name: "Page B",
+      visit: 200,
+    },
+    {
+      name: "Page C",
+      visit: 200,
+    },
+    {
+      name: "Page D",
+      visit: 50,
+    },
+    {
+      name: "Page E",
+      visit: 200,
+    },
+    {
+      name: "Page F",
+      visit: 100,
+    },
+    {
+      name: "Page G",
+      visit: 90,
+    },
+  ],
+};
+
+export const barDataRevenue = {
+  title: "Total Revenue",
+  dataKey: "revenue",
+  chartData: [
+    {
+      name: "Page A",
+      revenue: 200,
+    },
+    {
+      name: "Page B",
+      revenue: 200,
+    },
+    {
+      name: "Page C",
+      revenue: 200,
+    },
+    {
+      name: "Page D",
+      revenue: 50,
+    },
+    {
+      name: "Page E",
+      revenue: 200,
+    },
+    {
+      name: "Page F",
+      revenue: 100,
+    },
+    {
+      name: "Page G",
+      revenue: 90,
+    },
+  ],
+};

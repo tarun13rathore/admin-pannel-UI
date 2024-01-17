@@ -390,3 +390,10 @@ export const barDataRevenue = {
     },
   ],
 };
+
+export const pieData = [
+  { name: "Group A", value: 400, color: "red" },
+  { name: "Group B", value: 300, color: "blue" },
+  { name: "Group C", value: 300, color: "yellow" },
+  { name: "Group D", value: 200, color: "green" },
+];

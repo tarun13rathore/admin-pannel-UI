@@ -9,8 +9,11 @@ import {
   ratio,
   barData,
   barDataRevenue,
+  pieData,
 } from "../../components/menu/Data";
 import BarChart from "../../components/barchart/BarChartBox";
+import PieChartBox from "../../components/pieChart/PieChartBox";
+import BigChartBox from "../../components/bigChart/BigChartBox";
 
 const Home = () => {
   return (
@@ -25,14 +28,18 @@ const Home = () => {
         <div className="box box3">
           <ChartBox {...ChartDatas2} />
         </div>
-        <div className="box box4">Box4</div>
+        <div className="box box4">
+          <PieChartBox {...pieData} />
+        </div>
         <div className="box box5">
           <ChartBox {...ratio} />
         </div>
         <div className="box box6">
           <ChartBox {...products} />
         </div>
-        <div className="box box7">Box7</div>
+        <div className="box box7">
+          <BigChartBox />
+        </div>
         <div className="box box8">
           <BarChart {...barData} />
         </div>

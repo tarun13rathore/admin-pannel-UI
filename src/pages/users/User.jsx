@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { DataGrid } from "@mui/x-data-grid";
 import "./user.scss";
 import DataTable from "../../components/dataTable/DataTable";
-import AddUser from "../../components/addUser/AddUser";
+import AddUser from "../../components/addModal/Add";
 const columns = [
   { field: "id", headerName: "ID", width: 70 },
   {
@@ -81,7 +81,7 @@ const User = () => {
           </div>
         </div>
         <div>
-          <DataTable columns={columns} rows={rows} slug="users" />
+          <DataTable columns={columns} rows={rows} slug="user" />
         </div>
         {open && <AddUser slug="user" columns={columns} setOpen={setOpen} />}
       </div>

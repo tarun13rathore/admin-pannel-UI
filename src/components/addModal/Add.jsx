@@ -1,9 +1,11 @@
 import React from "react";
 import "./AddUser.scss";
 
-const AddUser = ({ setOpen, slug, columns }) => {
+const Add = ({ setOpen, slug, columns }) => {
   const submitHandler = (e) => {
     e.preventDefault();
+    //add product
+    //axios.post(`/api/${slug}'s`,{data})
   };
   return (
     <div className="main_add">
@@ -25,10 +27,11 @@ const AddUser = ({ setOpen, slug, columns }) => {
                 </>
               );
             })}
+          <button>Submit</button>
         </form>
       </div>
     </div>
   );
 };
 
-export default AddUser;
+export default Add;

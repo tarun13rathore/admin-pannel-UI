@@ -397,3 +397,183 @@ export const pieData = [
   { name: "Group C", value: 300, color: "yellow" },
   { name: "Group D", value: 200, color: "green" },
 ];
+
+export const productData = [
+  {
+    id: 1,
+    img: "https://wallpapers.com/images/featured-full/full-hd-apple-4uyz5oiarhmw0rlh.jpg",
+    title: "Apple",
+    color: "red",
+    producer: "Apple Inc",
+    price: 45000,
+    inStock: false,
+    createAt: "01.01.2024",
+  },
+  {
+    id: 2,
+    img: "https://wallpapers.com/images/featured-full/full-hd-apple-4uyz5oiarhmw0rlh.jpg",
+    title: "Apple",
+    color: "black",
+    producer: "Apple Inc",
+    price: 45000,
+    inStock: true,
+    createAt: "01.01.2024",
+  },
+  {
+    id: 3,
+    img: "https://wallpapers.com/images/featured-full/full-hd-apple-4uyz5oiarhmw0rlh.jpg",
+    title: "Apple",
+    color: "red",
+    producer: "Apple Inc",
+    price: 45000,
+    inStock: false,
+    createAt: "01.01.2024",
+  },
+  {
+    id: 4,
+    img: "https://wallpapers.com/images/featured-full/full-hd-apple-4uyz5oiarhmw0rlh.jpg",
+    title: "Apple",
+    color: "red",
+    producer: "Apple Inc",
+    price: 45000,
+    inStock: false,
+    createAt: "01.01.2024",
+  },
+  {
+    id: 5,
+    img: "https://wallpapers.com/images/featured-full/full-hd-apple-4uyz5oiarhmw0rlh.jpg",
+    title: "Apple",
+    color: "red",
+    producer: "Apple Inc",
+    price: 45000,
+    inStock: false,
+    createAt: "01.01.2024",
+  },
+  {
+    id: 6,
+    img: "https://wallpapers.com/images/featured-full/full-hd-apple-4uyz5oiarhmw0rlh.jpg",
+    title: "Apple",
+    color: "red",
+    producer: "Apple Inc",
+    price: 45000,
+    inStock: false,
+    createAt: "01.01.2024",
+  },
+];
+
+export const singleProduct = {
+  id: 1,
+  title: " Plavstation 5 Dialtal Editions",
+  img: "/img.svg",
+  info: {
+    productId: 1,
+    color: "red",
+    price: 452,
+    producer: "sony",
+    export: "japan",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "green" },
+      { name: "orders", color: "blue" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 400,
+        orders: 2555,
+      },
+      {
+        name: "Moon",
+        visits: 400,
+        orders: 2555,
+      },
+      {
+        name: "Earth",
+        visits: 7700,
+        orders: 5555,
+      },
+      {
+        name: "Mars",
+        visits: 6000,
+        orders: 2555,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+  ],
+};
+
+export const singleUserData = {
+  id: 1,
+  img: "/img.svg",
+  info: {
+    username: "tarun",
+    fullname: "tarun rathore",
+    email: "tarun@gmail.com",
+    Phone: 701515515,
+    status: "verified",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "green" },
+      { name: "orders", color: "blue" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 400,
+        orders: 2555,
+      },
+      {
+        name: "Moon",
+        visits: 400,
+        orders: 2555,
+      },
+      {
+        name: "Earth",
+        visits: 7700,
+        orders: 5555,
+      },
+      {
+        name: "Mars",
+        visits: 6000,
+        orders: 2555,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+    {
+      text: "John Doe purchased Plavstation 5 Dialtal Editions",
+      time: "3 days ago",
+    },
+  ],
+};

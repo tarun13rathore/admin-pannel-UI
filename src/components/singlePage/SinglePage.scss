@@ -1,5 +1,11 @@
+@import "../../responsive.scss";
+
 .mainSingle {
   display: flex;
+
+  @include md {
+    display: block;
+  }
   .info {
     flex: 1;
     .userInfo {

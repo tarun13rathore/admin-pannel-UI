@@ -10,7 +10,7 @@ const DataTable = ({ columns, rows, slug }) => {
   const actionColumn = {
     field: "actions",
     headerName: "Actions",
-    width: 100,
+    width: 90,
     renderCell: (params) => {
       return (
         <div>

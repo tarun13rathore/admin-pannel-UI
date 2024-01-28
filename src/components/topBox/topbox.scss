@@ -1,6 +1,12 @@
+@import "../../responsive.scss";
+
 .main_topBox {
   .headd {
     margin-bottom: 10px;
+
+    @include xxl {
+      font-size: 24px;
+    }
   }
   .cards {
     padding: 15px 5px;
@@ -18,12 +24,27 @@
         height: 30px;
         width: 30px;
         border-radius: 50%;
+
+        @include xxl {
+          display: none;
+        }
+
+        @include lg {
+          display: block;
+        }
       }
       .name {
         font-size: 13px;
       }
       .email {
         font-size: 12px;
+        @include xxl {
+          display: none;
+        }
+
+        @include lg {
+          display: block;
+        }
       }
     }
     .amout {

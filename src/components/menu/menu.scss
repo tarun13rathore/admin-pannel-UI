@@ -1,8 +1,14 @@
+@import "../../responsive.scss";
+@import "../../variable.scss";
 .menu {
   .item {
     padding-bottom: 10px;
     .tittle {
       display: block;
+
+      @include lg {
+        display: none;
+      }
     }
     .linkCont {
       display: flex;
@@ -15,6 +21,9 @@
         background-color: rgba(159, 169, 179, 0.192);
       }
       .listItemTittle {
+        @include lg {
+          display: none;
+        }
       }
     }
   }

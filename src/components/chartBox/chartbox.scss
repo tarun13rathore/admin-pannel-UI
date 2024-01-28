@@ -1,18 +1,35 @@
 @import "../../variable.scss";
+@import "../../responsive.scss";
+
 .main_chat {
   display: flex;
-
   height: 100%;
+
+  @include sm {
+    flex-direction: column;
+  }
   .info {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @include sm {
+      gap: 20px;
+    }
     .title {
       display: flex;
       justify-content: start;
       gap: 10px;
       align-items: center;
+      @include xxl {
+        font-size: 14px;
+      }
+    }
+    h3 {
+      @include xxl {
+        font-size: 20px;
+      }
     }
     .head {
       // padding: 34px 0;
@@ -36,6 +53,9 @@
       .perc {
         color: greenyellow;
         font-weight: bold;
+        @include xxl {
+          font-size: 16px;
+        }
       }
     }
   }

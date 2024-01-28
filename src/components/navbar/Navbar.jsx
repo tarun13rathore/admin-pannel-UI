@@ -16,9 +16,9 @@ const Navbar = () => {
           <span>admin Pannel</span>
         </div>
         <div className="icons">
-          <img src={app} alt="app" />
-          <img src={seach} alt="seach" />
-          <img src={expand} alt="expand" />
+          <img src={app} alt="app" className="icon" />
+          <img src={seach} alt="seach" className="icon" />
+          <img src={expand} alt="expand" className="icon" />
           <div className="notification">
             <img src={notification} alt="notification" />
             <span className="count">1</span>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <img src={user} alt="uses" />
             <span>tarun</span>
           </div>
-          <img src={setting} alt="setting" />
+          <img src={setting} alt="setting" className="icon" />
         </div>
       </div>
     </>

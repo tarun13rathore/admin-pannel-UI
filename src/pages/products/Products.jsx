@@ -5,11 +5,11 @@ import AddUser from "../../components/addModal/Add";
 import { productData } from "../../components/menu/Data";
 
 const columns = [
-  { field: "id", headerName: "ID", width: 70 },
+  { field: "id", headerName: "ID", width: 100 },
   {
     field: "img",
     headerName: "Image",
-    width: 70,
+    width: 100,
     renderCell: (params) => {
       return (
         <img
@@ -20,25 +20,26 @@ const columns = [
       );
     },
   },
-  { field: "title", headerName: "Title", width: 130 },
-  { field: "color", headerName: "Color", width: 130 },
-  {
-    field: "price",
-    headerName: "Price",
-    type: "number",
-    width: 90,
-  },
+  { field: "title", headerName: "Title", width: 100 },
+  { field: "color", headerName: "Color", width: 100 },
+  { field: "price", headerName: "Price", width: 100 },
+  // {
+  //   field: "price",
+  //   headerName: "Price",
+  //   type: "number",
+  //   width: 90,
+  // },
   {
     field: "producer",
     headerName: "Producer",
     type: "string",
-    width: 160,
+    width: 100,
   },
   {
     field: "createdAt",
     headerName: "Created At",
     type: "string",
-    width: 160,
+    width: 100,
   },
   { field: "inStock", headerName: "In Stock", width: 100, type: "boolean" },
 ];

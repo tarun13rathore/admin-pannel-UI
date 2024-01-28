@@ -1,7 +1,12 @@
+@import "../../responsive.scss";
 .chartBox {
   display: flex;
   flex-direction: column;
   height: 100%;
+
+  @include xxl {
+    font-size: 24px;
+  }
   .chart {
     height: 100%;
     width: 100%;
